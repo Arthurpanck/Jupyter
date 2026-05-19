@@ -329,7 +329,8 @@
           "./pypi/all.json",
           "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json"
         ],
-        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.0/pyc/pyodide.js"
+        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.0/pyc/pyodide.js",
+        "disablePyPIFallback": true
       }
     },
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
