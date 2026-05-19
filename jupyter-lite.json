@@ -3,7 +3,7 @@
     "appName": "JupyterLite",
     "appUrl": "./lab",
     "appVersion": "0.1.2",
-    "baseUrl": "./",
+    "baseUrl": "/Jupyter/",
     "contentsStorageDrivers": [
       "memoryStorageDriver"
     ],
