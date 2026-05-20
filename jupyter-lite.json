@@ -326,10 +326,11 @@
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
         "pipliteUrls": [
-          "./pypi/all.json?sha256=9f421578c3c3e119872ffcb8f240077560bff20862a6e6bb5787ec7acdcdfa35",
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=559fdb0c528ad0e0843f12d3dec4e043c112bcfe56ede80ae019755d81c930b0"
+          "./pypi/all.json",
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json"
         ],
-        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.0/pyc/pyodide.js"
+        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.0/pyc/pyodide.js",
+        "disablePyPIFallback": true
       }
     },
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
